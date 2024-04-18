@@ -5,16 +5,22 @@
 body{
     background: linear-gradient(to right, #BFDFFF, #CCE5FF);
 }
+.header{
+    height: 200px;
+    margin-top: 0.2%;
+    margin-left: 10%;
+    font-size: 50px;
+}
 .cadastro{
     display: flex;
     justify-content: center;
 }
 .content{
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
+    width: 25%;
     transform: translate(-50%,-50%);
-    width: 450px;
     border-radius: 20px;
     border: solid linear-gradient(90deg, rgb(4, 0, 75) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) 1px;
     background-color: #3A539B;
