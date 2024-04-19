@@ -8,16 +8,22 @@
 header{
     background-color: #4a90e2;
     color: white;
-    font-size: 28px;
+    font-size: 18px;
+    padding: 20px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
 }
 header nav ul{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
     list-style: none;
+    gap: 40px;
 }
 #pfp{
-    height: 60px;
+    height: 40px;
 }
 
 footer{
@@ -28,7 +34,7 @@ footer{
     margin: 0;
 }
 footer .container{
-    padding: 100px;
+    padding: 60px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -67,12 +73,20 @@ footer hr{
 footer nav ul{
     display: flex;
     align-items: center;
-    justify-content: space-around;
     list-style: none;
+    gap: 40px;
 }
-footer nav ul img{
-    height: 40px;
+footer img{
+    height: 50px;
+}
+footer #f-ul-2{
+    margin-left: -65px;
 }
 footer nav{
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
 }
+
