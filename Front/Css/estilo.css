@@ -32,7 +32,7 @@ header a{
 }
 
 footer{
-    position: absolute;
+    position: relative;
     bottom: 0;   
     background-color: #2D4076;
     width: 100%;
