@@ -21,7 +21,7 @@ width: auto;
 #container-btn{
 position: absolute;
 bottom: 20px;
-left: 1280px;
+left: 1230px;
 }
 
 .container{
@@ -29,13 +29,13 @@ display: flex;
 flex-direction: column;
 align-items: center;
 width: 100%;
-height: 100%;
-background-color: #BFDFFF;  
+height: 657px;
+background-color: #BFDFFF;
+gap: 10px;  
 }
 
 h3{
 font-size: 40px;
-
 }
 
 h1{
