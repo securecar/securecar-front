@@ -1,10 +1,17 @@
 #chat{
-
+border-radius: 10px;
+height: 40px;
+width: 50%;
+position: relative;
+bottom: -490px;
 }
 #input{
 display: flex;
 flex-direction: column;
-align-items: center;   
+align-items: center;
+background-color: #BFDFFF;
+border-radius: 10px;
+height: 1000px; 
 }
 
 img{
@@ -22,4 +29,6 @@ right: -30px;
 header{
 background-color: #4A90E2;
 border-radius: 20px;
+width: 100%;
+height: 60px;
 }
