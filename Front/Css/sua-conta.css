@@ -1,0 +1,19 @@
+.main-sua-conta{
+    min-height: 75vh;
+    background-color: #3A539B;
+    height: 100%;
+}
+.section-left{
+    width: 20%;
+    background-color: #2a3b69;
+    justify-content: center;
+    
+}
+.section-left h3{
+    text-align: center;
+    padding: 30px;
+    height: 10vh;
+    font-weight: 700;
+    border-bottom: 5px solid #192545;
+    color: white;
+}
