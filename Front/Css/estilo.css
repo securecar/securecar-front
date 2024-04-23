@@ -10,7 +10,7 @@
     height: 40px;
     width: 50%;
     position: relative;
-    bottom: -490px;
+    bottom: 0;
 }
 
 #input{
@@ -30,9 +30,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 5px;
+    gap: 35px;
     img{
         height: 40px;
+        &:hover{
+            cursor: pointer;
+        }
     }
     h1{
         font-size: 20px;
@@ -45,8 +48,10 @@
     background-color: #8ec5fc;
     border-radius: 50%;
     padding: 15px;
-    position: sticky;
+    position: relative;
     right: 0;
+    bottom: 0;
+    overflow: visible;
 }
 
 #chat{
@@ -55,9 +60,7 @@
 }
 
 #container-btn{
-    position: absolute;
-    bottom: 20px;
-    left: 1230px;
+    
 }
 
 header:not(#header-chatbot){
@@ -92,7 +95,9 @@ footer{
     background-color: #2D4076;
     width: 100%;
     margin: 0;
+    z-index: 100;
 }
+
 footer .container{
     padding: 60px;
     display: flex;
