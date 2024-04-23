@@ -1,36 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     font-family: 'Inter';
 }
+
 body{
     background-color: #cce5ff;
 }
-footer a{
-    color: white;
-    text-decoration: none;
+
+#chat{
+    border-radius: 10px;
+    height: 40px;
+    width: 50%;
+    position: relative;
+    bottom: 0;
 }
 
-header{
+#input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #BFDFFF;
+    border-radius: 10px;
+    height: 560px; 
+}
+
+#header-chatbot{
+    background-color: #4A90E2;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 35px;
+    img{
+        height: 40px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    h1{
+        font-size: 20px;
+        color: white;
+    }
+}
+
+
+#button-conversar{
+    background-color: #8ec5fc;
+    border-radius: 50%;
+    padding: 15px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    overflow: visible;
+}
+
+#chat{
+    height: 35px;
+    width: auto;
+}
+
+#container-btn{
+    
+}
+
+header:not(#header-chatbot){
     background-color: #4a90e2;
     color: white;
     font-size: 18px;
     padding: 20px;
 }
-header nav{
+header:not(#header-chatbot) nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header nav ul{
+header:not(#header-chatbot) nav ul{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     list-style: none;
     gap: 40px;
 }
-header a{
+header:not(#header-chatbot) a{
     text-decoration: none;
     color: white;
 }
@@ -44,7 +100,9 @@ footer{
     background-color: #2D4076;
     width: 100%;
     margin: 0;
+    z-index: 100;
 }
+
 footer .container{
     padding: 60px;
     display: flex;
@@ -70,6 +128,9 @@ footer button{
     color: white;
     font-size: 16px;
     font-weight: 600;
+}
+footer button:hover{
+    cursor: pointer;
 }
 footer #f-p2{
     font-size: 50px;
@@ -101,4 +162,7 @@ footer nav{
     width: 100%;
     text-align: center;
 }
-
+footer a{
+    color: white;
+    text-decoration: none;
+}
