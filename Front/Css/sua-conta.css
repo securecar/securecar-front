@@ -52,6 +52,8 @@ form{
     width: 100%;
 }
 .inputs input{
+    background-color: #faefef  ;
+    border:  solid 1px #3A539B;
     border-radius: 10px;
     width: 40%;
     padding: 10px;
