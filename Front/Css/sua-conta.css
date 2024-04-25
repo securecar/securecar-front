@@ -39,6 +39,9 @@
     
     padding-bottom: 80px;
 }
+#chamados{
+    background-color: #4a8fe1;
+}
 #foto{
     height: 150px;
 }
@@ -78,4 +81,46 @@ form{
 }
 .w-500{
     font-weight: 500;
+}
+
+/*chamados-cliente*/
+#chamados-cliente table{
+    padding: 20px;
+    border-spacing: 30px;
+    color: white;
+}
+#chamados-cliente tr{
+    gap: 20px;
+    text-align: left;
+}
+#chamdos-cliente th{
+    font-size: 64px;
+}
+.icones-acoes{
+    display: flex;
+    align-items: center;
+}
+.icones-acoes img:hover{
+    cursor: pointer;
+}
+.carro-status{
+    display: flex;
+    justify-content: center;
+    padding: 7px 8px;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.carro-status.andamento{
+    background-color: rgb(246, 246, 139);
+    color: rgb(127, 127, 11) !important;
+}
+.carro-status.espera{
+    background-color: rgb(255, 169, 169);
+    color: rgb(150, 0, 0) !important;
+}
+.carro-status.concluido{
+    background-color: rgb(164, 255, 164);
+    color: rgb(0, 130, 0) !important;
 }
