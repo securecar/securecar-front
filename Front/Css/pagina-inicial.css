@@ -117,3 +117,7 @@ section:not(#objetivo) {
     height: 50px;
   }
 }
+.link-participantes{
+  text-decoration: none;
+  color: black;
+}
