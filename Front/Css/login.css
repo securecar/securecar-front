@@ -20,8 +20,6 @@ body{
     background-color: #3A539B;
     display: flex;
     flex-direction: column;
-    
-    
 }
 .inputs a{
     width: 100%;
@@ -62,20 +60,22 @@ form{
 #button-cadastro{
     width: 100%;
     border-radius: 30px 0 0 30px;
-    background-color: #0C2773;
+    background-color: #3e6fa7;
+    
 }
 #button-cadastro:active{
     border-radius: 30px 0 0 30px;
-    background-color: #071641;
+    background-color: #5190DA;
+    
 }
 #button-login{
     width: 100%;
     border-radius: 0 30px 30px 0;
-    background-color: #5190DA;
+    background-color: #0C2773;
 }
 #button-login:active{
     border-radius: 0 30px 30px 0;
-    background-color: #3e6fa7;
+    background-color: #071641;
 }
 #button-cadastrar{
     border-radius: 30px;
