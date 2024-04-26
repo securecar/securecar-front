@@ -36,18 +36,19 @@ body{
     align-items: center;
     justify-content: flex-start;
     gap: 35px;
-    img{
-        height: 40px;
-        &:hover{
-            cursor: pointer;
-        }
-    }
+   
+    
     h1{
         font-size: 20px;
         color: white;
     }
 }
-
+#header-chatbot img{
+    height: 40px;
+    &:hover{
+        cursor: pointer;
+    }
+}
 
 #button-conversar{
     background-color: #8ec5fc;
