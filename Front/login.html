@@ -1,32 +1,45 @@
-<!DOCTYPE html>
+
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Css/estilo.css">
-    <link rel="stylesheet" href="./Css/chatbot.css">
-    <title>CHATBOT</title>
+    <link rel="stylesheet" href="./Css/login.css">
+    <title>Cadastro</title>
+</head>
 <body>
-    <header id="header-chatbot">
-        <img id="historico" src="./img/Botão do historico do chat.svg" alt="histórico de conversas">
-        <h1>Chat-Bot</h1>
+    <header>
+        <nav>
+            <h1>SecureCar</h1>
+            <ul>
+                <li><a href="./novidades.html">Blog</a></li>
+                <li><a href="./help.html">Help</a></li>
+                <li><a href="./pagina-inicial.html">Quem Somos</a></li>
+                <li><a href="./sua-conta.html"><img src="./img/profile-pic.svg" alt="" id="pfp"></a></li>
+            </ul>
+        </nav>
     </header>
-    <main id="main-chatbot">
-        <div id="chatbot">
-            
+    <main class="main-cadastro">
+        <div class="content">
+        <div class="cadastro">
+            <div class="inputs">
+                <div class="button">
+                    <a href="./cadastro.html"><button id="button-cadastro">Cadastro</button></a>
+                    <a href="./login.html"><button id="button-login">Login</button></a>
+                </div>
+                <form>
+                <h4>Email</h4>
+                <input type="text" class="informacoes">
+                <h4>Senha</h4>
+                <input type="text" class="informacoes">
+            </form>
+                <div class="button-Login-2">
+                     <a href="./pagina-inicial.html"><button id="button-Login-2">Login</button></a>
+                </div>
+            </div>
         </div>
-        <div id="input">
-            <input id="chat" placeholder="Digite Aqui"></input>
-        </div>  
-        <input type="checkbox" class="check-feedback">
-        <div class="container-feedback">
-            <p>Dê seu feedback</p>
-            <img src="./img/five-stars.svg" alt="">
         </div>
-        <label class="custom-checkbox-label" for="myCheckbox"></label>
-    <input type="checkbox" class="custom-checkbox" id="myCheckbox">
     </main>
-
     <footer>
         <div class="container">
             <p id="f-p1">Upgrade para consertos veiculares</p>
