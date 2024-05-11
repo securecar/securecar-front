@@ -482,7 +482,6 @@
         letter-spacing: 2.8px;
         color: rgb(181, 181, 181);
     }
-
     footer button{
         margin: 40px 0;
         background-color: #0081fe;
@@ -541,7 +540,6 @@
     body{
         background-color: #cce5ff;
     }
-
     #chat{
         border-radius: 10px;
         width: 80%;
