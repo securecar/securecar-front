@@ -1,81 +1,352 @@
-.main-sua-conta{
-    min-height: 75vh;
-    background-color: #3A539B;
-    height: 100%;
-    display: flex;
+
+@media (min-width:1024px){
+    .main-sua-conta{
+        min-height: 75vh;
+        background-color: #3A539B;
+        height: 100%;
+        display: flex;
+    }
+    .section-left{
+        width: 20%;
+        background-color: #2a3b69;
+        justify-content: center;
+        
+    }
+    .section-left h3{
+        text-align: center;
+        padding: 30px;
+        height: 10vh;
+        font-weight: 700;
+        border-bottom: 5px solid #192545;
+        color: white;
+        align-content: center;
+    }
+    .section-right{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .perfil{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .perfil h2,h3{
+        color: white;
+        padding: 6px;
+    }
+    .perfil h3{
+        
+        padding-bottom: 80px;
+    }
+    #foto{
+        height: 150px;
+    }
+    form{
+        width: 100%;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .inputs input{
+        background-color: #faefef  ;
+        border:  solid 1px #3A539B;
+        border-radius: 10px;
+        width: 40%;
+        padding: 10px;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-left: 30%;
+        background-image: url('../img/sinal-de-seta-para-baixo-para-navegar.png') no-repeat scroll 7px 7px;
+        background-size: 20px;
+    }
+    .inputs h4{
+        margin-left: 30%;
+        color: rgb(240, 239, 239);
+        letter-spacing: 1px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    /* classes pre definidas */
+    .fs-30{
+        font-size: 30px;
+    }
+    .w-700{
+        font-weight: 700;
+    }
+    .w-500{
+        font-weight: 500;
+    }
 }
-.section-left{
-    width: 20%;
-    background-color: #2a3b69;
-    justify-content: center;
-    
+@media (min-width:820px) and (max-width:1023px){
+    .main-sua-conta{
+        min-height: 75vh;
+        background-color: #2a3b69;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-left{
+        width: 100%;
+        background-color: #2a3b69;
+        justify-content: center;
+        
+    }
+    .section-left h3{
+        text-align: center;
+        padding: 30px;
+        height: 10vh;
+        font-weight: 700;
+        border-bottom: 5px solid #192545;
+        color: white;
+        align-content: center;
+    }
+    .section-right{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .perfil{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        text-align: center;
+        border-bottom: 5px solid #192545;
+    }
+    .perfil h2,h3{
+        color: white;
+        padding: 6px;
+    }
+    .perfil h3{
+        padding-bottom: 80px;
+    }
+    #foto{
+        height: 150px;
+    }
+    form{
+        display: none;
+    }
+    .inputs{
+        
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .inputs input{
+        background-color: #faefef  ;
+        border:  solid 1px #3A539B;
+        border-radius: 10px;
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-image: url('../img/sinal-de-seta-para-baixo-para-navegar.png') no-repeat scroll 7px 7px;
+        background-size: 20px;
+    }
+    .inputs h4{
+        color: rgb(240, 239, 239);
+        letter-spacing: 1px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    /* classes pre definidas */
+    .fs-30{
+        font-size: 30px;
+    }
+    .w-700{
+        font-weight: 700;
+    }
+    .w-500{
+        font-weight: 500;
+    }
+
 }
-.section-left h3{
-    text-align: center;
-    padding: 30px;
-    height: 10vh;
-    font-weight: 700;
-    border-bottom: 5px solid #192545;
-    color: white;
-    align-content: center;
+@media (min-width:700px) and (max-width:819px){
+    .main-sua-conta{
+        min-height: 75vh;
+        background-color: #2a3b69;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-left{
+        width: 100%;
+        background-color: #2a3b69;
+        justify-content: center;
+        
+    }
+    .section-left h3{
+        text-align: center;
+        padding: 30px;
+        height: 10vh;
+        font-weight: 700;
+        border-bottom: 5px solid #192545;
+        color: white;
+        align-content: center;
+    }
+    .section-right{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .perfil{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        text-align: center;
+        border-bottom: 5px solid #192545;
+        padding-bottom: 30px;
+    }
+    .perfil h2, .perfil h3{
+        width: 300px;
+        color: white;
+        padding: 6px;
+    }
+    .img-profile{
+        width: 50%;
+    }
+    .text-profile{
+        float: right;
+        width: 80%;
+    }
+    #foto{
+        height: 150px;
+    }
+    form{
+        display: none;
+    }
+    .inputs{
+        
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .inputs input{
+        background-color: #faefef  ;
+        border:  solid 1px #3A539B;
+        border-radius: 10px;
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-image: url('../img/sinal-de-seta-para-baixo-para-navegar.png') no-repeat scroll 7px 7px;
+        background-size: 20px;
+    }
+    .inputs h4{
+        color: rgb(240, 239, 239);
+        letter-spacing: 1px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    /* classes pre definidas */
+    .fs-30{
+        font-size: 30px;
+    }
+    .w-700{
+        font-weight: 700;
+    }
+    .w-500{
+        font-weight: 500;
+    }
+
 }
-.section-right{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.perfil{
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    text-align: center;
-}
-.perfil h2,h3{
-    color: white;
-    padding: 6px;
-}
-.perfil h3{
-    
-    padding-bottom: 80px;
-}
-#foto{
-    height: 150px;
-}
-form{
-    width: 100%;
-}
-.inputs{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-}
-.inputs input{
-    background-color: #faefef  ;
-    border:  solid 1px #3A539B;
-    border-radius: 10px;
-    width: 40%;
-    padding: 10px;
-    justify-content: space-between;
-    margin-bottom: 10px;
-    margin-left: 30%;
-    background-image: url('../img/sinal-de-seta-para-baixo-para-navegar.png') no-repeat scroll 7px 7px;
-    background-size: 20px;
-}
-.inputs h4{
-    margin-left: 30%;
-    color: rgb(240, 239, 239);
-    letter-spacing: 1px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-/* classes pre definidas */
-.fs-30{
-    font-size: 30px;
-}
-.w-700{
-    font-weight: 700;
-}
-.w-500{
-    font-weight: 500;
+@media(max-width:699px){
+    .main-sua-conta{
+        min-height: 75vh;
+        background-color: #2a3b69;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-left{
+        width: 100%;
+        background-color: #2a3b69;
+        justify-content: center;
+        
+    }
+    .section-left h3{
+        text-align: center;
+        padding: 30px;
+        height: 10vh;
+        font-weight: 700;
+        border-bottom: 5px solid #192545;
+        color: white;
+        align-content: center;
+    }
+    .section-right{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .perfil{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        text-align: center;
+        border-bottom: 5px solid #192545;
+        padding-bottom: 30px;
+    }
+    .perfil h2, .perfil h3{
+        width: 300px;
+        color: white;
+        padding: 6px;
+    }
+    .img-profile{
+        width: 50%;
+    }
+    .text-profile{
+        float: right;
+        width: 80%;
+    }
+    #foto{
+        height: 120px;
+    }
+    form{
+        display: none;
+    }
+    .inputs{
+        
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .inputs input{
+        background-color: #faefef  ;
+        border:  solid 1px #3A539B;
+        border-radius: 10px;
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 10px;
+        background-image: url('../img/sinal-de-seta-para-baixo-para-navegar.png') no-repeat scroll 7px 7px;
+        background-size: 20px;
+    }
+    .inputs h4{
+        color: rgb(240, 239, 239);
+        letter-spacing: 1px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    /* classes pre definidas */
+    .fs-30{
+        font-size: 30px;
+    }
+    .w-700{
+        font-weight: 700;
+    }
+    .w-500{
+        font-weight: 500;
+    }
+
 }
