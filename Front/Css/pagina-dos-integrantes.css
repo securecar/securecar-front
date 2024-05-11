@@ -70,3 +70,39 @@
         text-align: center;
     }
 }
+@media (min-width:700px) and (max-width:819px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        min-height: 75vh;
+    }
+
+    .integrante img{
+        width: 250px;
+        height: 250px;
+        padding-right: 20px;
+    }
+    .integrante{
+        display: flex;
+        flex-direction: row;
+        margin: 40px;
+        align-items: center;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .integrante a img{
+        width: 80px;
+        height: 80px;
+    }
+    .container h1{
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        text-align: center;
+    }
+}
