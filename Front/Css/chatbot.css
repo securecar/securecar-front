@@ -1,0 +1,46 @@
+.custom-checkbox {
+    display: none; /* Oculta o input padrão */
+}
+
+/* Estilize o rótulo (label) para criar o visual do checkbox personalizado */
+.custom-checkbox-label {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* Quando o input checkbox estiver marcado */
+.custom-checkbox:checked + .custom-checkbox-label {
+    background-image: url('checkmark_checked.png'); /* Substitua pelo caminho da sua imagem selecionada */
+}
+
+.check-feedback {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('../img/feedback.svg'); /* Substitua pelo caminho da sua imagem */
+    background-size: contain;
+    cursor: pointer;
+}
+.check-feedback:checked ~ .container-feedback{
+    display: flex !important;
+}
+
+.container-feedback{
+    width: fit-content;
+    background-color: white;
+    padding: 20px;
+    display: none;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+.container-feedback img{
+    height: 50px;
+    
+}

@@ -340,6 +340,7 @@
     }
 
 }
+
 @media(max-width:699px){
     .main-sua-conta{
         min-height: 75vh;
@@ -431,4 +432,105 @@
         font-weight: 500;
     }
 
+
+.perfil{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    text-align: center;
+}
+.perfil h2,h3{
+    color: white;
+    padding: 6px;
+}
+.perfil h3{
+    
+    padding-bottom: 80px;
+}
+#chamados{
+    background-color: #4a8fe1;
+}
+#foto{
+    height: 150px;
+}
+form{
+    width: 100%;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.inputs input{
+    background-color: #faefef  ;
+    border:  solid 1px #3A539B;
+    border-radius: 10px;
+    width: 40%;
+    padding: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 30%;
+    background-image: url('../img/sinal-de-seta-para-baixo-para-navegar.png') no-repeat scroll 7px 7px;
+    background-size: 20px;
+}
+.inputs h4{
+    margin-left: 30%;
+    color: rgb(240, 239, 239);
+    letter-spacing: 1px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* classes pre definidas */
+.fs-30{
+    font-size: 30px;
+}
+.w-700{
+    font-weight: 700;
+}
+.w-500{
+    font-weight: 500;
+
+}
+
+/*chamados-cliente*/
+#chamados-cliente table{
+    padding: 20px;
+    border-spacing: 30px;
+    color: white;
+}
+#chamados-cliente tr{
+    gap: 20px;
+    text-align: left;
+}
+#chamdos-cliente th{
+    font-size: 64px;
+}
+.icones-acoes{
+    display: flex;
+    align-items: center;
+}
+.icones-acoes img:hover{
+    cursor: pointer;
+}
+.carro-status{
+    display: flex;
+    justify-content: center;
+    padding: 7px 8px;
+    background-color: white;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.carro-status.andamento{
+    background-color: rgb(246, 246, 139);
+    color: rgb(127, 127, 11) !important;
+}
+.carro-status.espera{
+    background-color: rgb(255, 169, 169);
+    color: rgb(150, 0, 0) !important;
+}
+.carro-status.concluido{
+    background-color: rgb(164, 255, 164);
+    color: rgb(0, 130, 0) !important;
 }
