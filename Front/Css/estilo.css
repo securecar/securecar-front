@@ -1,4 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+header:not(#header-chatbot) {
+  background-color: #4a90e2;
+  color: white;
+  font-size: 18px;
+  padding: 20px;  
+}
+header:not(#header-chatbot) nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header:not(#header-chatbot) nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+header:not(#header-chatbot) a {
+  text-decoration: none;
+  color: white;
+}
+header .mobile-menu-icon{
+  display: none;
+}
+header .mobile-menu{
+  display: none;
+}
+#pfp {
+  height: 40px;
+}
+
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 40px;
+  flex-wrap: wrap;
+}
 
 #header-chatbot {
   a {
@@ -106,6 +151,10 @@
   }
   #pfp {
     height: 40px;
+  }
+
+  @media screen and (max-width: 570px){
+    
   }
 
   footer {
@@ -782,6 +831,8 @@
     color: white;
     font-size: 18px;
     padding: 20px;
+    position: sticky;
+    top:0;
   }
   header:not(#header-chatbot) nav {
     display: flex;
@@ -795,6 +846,9 @@
     list-style: none;
     gap: 40px;
   }
+  header:not(#header-chatbot) nav ul{
+    display: none;
+  } 
   header:not(#header-chatbot) a {
     text-decoration: none;
     color: white;
@@ -802,6 +856,26 @@
   #pfp {
     height: 40px;
   }
+
+  header .mobile-menu-icon{
+    display: block;
+    button{
+      background-color: transparent;
+      border: none;
+      img{
+        height: 50px;
+      }
+    }
+  }
+
+  header .mobile-menu{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+
+  
 
   footer {
     position: relative;
@@ -813,7 +887,7 @@
   }
 
   footer .container {
-    padding: 60px;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -857,6 +931,7 @@
     align-items: center;
     list-style: none;
     gap: 40px;
+    flex-direction: row;
   }
   footer img {
     height: 40px;
@@ -870,12 +945,15 @@
     justify-content: space-between;
     width: 100%;
     text-align: center;
+    flex-direction: column;
+    gap: 20px;
   }
   footer a {
     margin-left: 5px;
     color: white;
     text-decoration: none;
   }
+  
 }
 
 .chatbot-btn {
