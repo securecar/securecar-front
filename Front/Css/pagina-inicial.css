@@ -365,4 +365,135 @@
   }
 }
 
-@media (min-width: )
+@media (min-width: 700px) and (max-width: 819){
+  #main-home {
+    background-color: #3a539b;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #main-home h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  #quem-somos {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    padding: 20px;
+  }
+  .container-red {
+    height: 250px;
+    width: 250px;
+    background-color: red;
+  }
+
+  #objetivo {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 40px;
+    margin: auto;
+    background-color: #4a90e2;
+    align-items: center;
+  }
+  #objetivo h2 {
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    font-weight: 500px;
+    margin: 20px 0;
+  }
+  #objetivo p {
+    text-align: justify;
+    width: 70%;
+    font-size: 18px;
+  }
+  #diferencial {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    padding: 20px;
+  }
+  #nossos-clientes {
+    background-color: #4a90e2;
+    padding: 40px 20px;
+  }
+  #nossos-clientes .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+  #nossos-clientes h2 {
+    padding-left: 200px;
+  }
+
+  section:not(#objetivo) {
+      h2 {
+      font-size: 32px;
+      margin: 20px 0;
+    }
+  }
+  #section-equipe {
+    width: 100%;
+  }
+  #equipe {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 20px;
+  }
+  .card-membro {
+    height: 400px;
+    width: 50%;
+    background-color: rgb(245, 246, 246);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px ;
+    box-shadow: 2px 2px 2px -2px black;
+    gap: 20px;
+  }
+  .card-membro h3 {
+    color: #233876;
+    font-size: 20px;
+    letter-spacing: 1.4;
+  }
+  .card-membro img {
+    height: 120px;
+    align-self: center;
+    border-radius: 300px;
+  }
+
+  #h2-equipe {
+    text-align: left;
+    font-size: 32px;
+    margin: 20px 50px;
+  }
+  #p-equipe {
+    margin: 20px 50px;
+  }
+  .social-medias {
+    img {
+      filter: invert(0.76);
+      height: 50px;
+    }
+  }
+}
+
+@media (max-width:699px){
+  #main-home {
+    background-color: #3a539b;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
