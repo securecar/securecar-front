@@ -496,4 +496,15 @@
     justify-content: center;
     align-items: center;
   }
+  #main-home h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  #quem-somos {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    padding: 20px;
+  }
 }
