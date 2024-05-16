@@ -517,6 +517,11 @@
     
   }
 
+  #diferencial, .container-red{
+    display: flex;
+    align-items: center;
+  }
+
   #objetivo {
     width: auto;
     display: flex;
