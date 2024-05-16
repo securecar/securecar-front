@@ -526,7 +526,7 @@
     width: auto;
     display: flex;
     flex-direction: column;
-    padding: 60px 40px;
+    padding: 60px 0px;
     margin: auto;
     background-color: #4a90e2;
     align-items: center;
@@ -580,7 +580,7 @@
   }
   .card-membro {
     height: 400px;
-    width: 50%;
+    width: 70%;
     background-color: rgb(245, 246, 246);
     border-radius: 14px;
     display: flex;
