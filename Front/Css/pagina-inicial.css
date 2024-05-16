@@ -382,13 +382,14 @@
   }
   #quem-somos {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 2fr;
     justify-items: center;
     padding: 20px;
+    align-items: center;
   }
   .container-red {
-    height: 250px;
-    width: 250px;
+    height: 225px;
+    width: 225px;
     background-color: red;
   }
 
@@ -504,14 +505,16 @@
   }
   #quem-somos {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 2fr;
     justify-items: center;
     padding: 20px;
+    align-items: center;
   }
   .container-red {
-    height: 250px;
-    width: 250px;
+    height: 160px;
+    width: 160px;
     background-color: red;
+    
   }
 
   #objetivo {
@@ -552,7 +555,7 @@
     justify-items: center;
   }
   #nossos-clientes h2 {
-    padding-left: 200px;
+    padding-left: 50px;
   }
 
   section:not(#objetivo) {
@@ -606,5 +609,8 @@
       filter: invert(0.76);
       height: 50px;
     }
+  }
+  .container{
+    gap: 10px;
   }
 }
