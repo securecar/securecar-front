@@ -521,6 +521,10 @@
     align-items: center;
   }
 
+  #diferencial{
+    gap: 10px;
+  }
+
   #objetivo {
     width: auto;
     display: flex;
@@ -538,7 +542,7 @@
     margin: 20px 0;
   }
   #objetivo p {
-    text-align: justify;
+    text-align: center;
     width: 70%;
     font-size: 18px;
   }
@@ -569,13 +573,13 @@
     }
   }
   #section-equipe {
+    padding: 15px !important;
   }
   #equipe {
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    padding: 20px;
+    padding: 10px;
     gap: 20px;
   }
   .card-membro {
@@ -618,5 +622,23 @@
   }
   .container {
     gap: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #nossos-clientes {
+    background-color: #4a90e2;
+    padding: 20px 10px;
+  }
+  #nossos-clientes .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  #nossos-clientes .container-red{
+    width: 75%;
+    height: 250px;
   }
 }
