@@ -30,7 +30,7 @@ header .mobile-menu-icon{
   display: none;
 }
 header .mobile-menu{
-  display: none;
+  display: none !important;
 }
 #pfp {
   height: 40px;
@@ -859,13 +859,14 @@ footer nav ul {
 
   header .mobile-menu-icon{
     display: block;
-    button{
+  }
+  header .mobile-menu-icon button{
       background-color: transparent;
       border: none;
-      img{
-        height: 50px;
-      }
     }
+  }
+  header .mobile-menu-icon button img{
+    height: 30px !important;
   }
 
   header .mobile-menu{
@@ -954,7 +955,7 @@ footer nav ul {
     text-decoration: none;
   }
   
-}
+
 
 .chatbot-btn {
   border: 1px solid black;
