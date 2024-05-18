@@ -30,7 +30,13 @@ header .mobile-menu-icon{
   display: none;
 }
 header .mobile-menu{
-  display: none !important;
+  display: none;
+}
+
+.open{
+  display:block;
+  width: 100%;
+  z-index: 100;
 }
 #pfp {
   height: 40px;
@@ -867,12 +873,6 @@ footer nav ul {
   }
   header .mobile-menu-icon button img{
     height: 30px !important;
-  }
-
-  header .mobile-menu{
-    display: flex;
-    flex-direction: column;
-
   }
 
 
