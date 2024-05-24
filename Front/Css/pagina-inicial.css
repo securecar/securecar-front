@@ -1,4 +1,4 @@
-@media (min-width:1440px){
+@media (min-width: 1440px) {
   #main-home {
     background-color: #3a539b;
     padding: 50px 30px;
@@ -67,7 +67,7 @@
   }
 
   section:not(#objetivo) {
-      h2 {
+    h2 {
       font-size: 32px;
       margin: 20px 0;
     }
@@ -89,7 +89,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 20px ;
+    padding: 20px 20px;
     box-shadow: 2px 2px 2px -2px black;
     gap: 20px;
   }
@@ -118,10 +118,9 @@
       height: 50px;
     }
   }
-
 }
 
-@media (min-width: 1024px) and (max-width: 1439px){
+@media (min-width: 1024px) and (max-width: 1439px) {
   #main-home {
     background-color: #3a539b;
     padding: 50px 30px;
@@ -190,7 +189,7 @@
   }
 
   section:not(#objetivo) {
-      h2 {
+    h2 {
       font-size: 32px;
       margin: 20px 0;
     }
@@ -212,7 +211,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 20px ;
+    padding: 20px 20px;
     box-shadow: 2px 2px 2px -2px black;
     gap: 20px;
   }
@@ -243,7 +242,7 @@
   }
 }
 
-@media (min-width: 820px) and (max-width: 1023px){
+@media (min-width: 820px) and (max-width: 1023px) {
   #main-home {
     background-color: #3a539b;
     padding: 50px 30px;
@@ -312,7 +311,7 @@
   }
 
   section:not(#objetivo) {
-      h2 {
+    h2 {
       font-size: 32px;
       margin: 20px 0;
     }
@@ -334,7 +333,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 20px ;
+    padding: 20px 20px;
     box-shadow: 2px 2px 2px -2px black;
     gap: 20px;
   }
@@ -365,7 +364,7 @@
   }
 }
 
-@media (min-width: 700px) and (max-width: 819px){
+@media (min-width: 700px) and (max-width: 819px) {
   #main-home {
     background-color: #3a539b;
     padding: 50px 30px;
@@ -435,7 +434,7 @@
   }
 
   section:not(#objetivo) {
-      h2 {
+    h2 {
       font-size: 32px;
       margin: 20px 0;
     }
@@ -457,7 +456,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 20px ;
+    padding: 20px 20px;
     box-shadow: 2px 2px 2px -2px black;
     gap: 20px;
   }
@@ -488,7 +487,7 @@
   }
 }
 
-@media (max-width:699px){
+@media (max-width: 699px) {
   #main-home {
     background-color: #3a539b;
     padding: 50px 30px;
@@ -514,12 +513,16 @@
     height: 160px;
     width: 160px;
     background-color: red;
-    
   }
 
-  #diferencial, .container-red{
+  #diferencial,
+  .container-red {
     display: flex;
     align-items: center;
+  }
+
+  #diferencial{
+    gap: 10px;
   }
 
   #objetivo {
@@ -539,7 +542,7 @@
     margin: 20px 0;
   }
   #objetivo p {
-    text-align: justify;
+    text-align: center;
     width: 70%;
     font-size: 18px;
   }
@@ -564,29 +567,30 @@
   }
 
   section:not(#objetivo) {
-      h2 {
+    h2 {
       font-size: 32px;
       margin: 20px 0;
     }
   }
   #section-equipe {
-    width: 100%;
+    padding: 15px !important;
   }
   #equipe {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-items: center;
-    padding: 20px;
+    padding: 10px;
+    gap: 20px;
   }
   .card-membro {
-    height: 400px;
-    width: 70%;
+    height: 250px;
+    width: 56%;
     background-color: rgb(245, 246, 246);
     border-radius: 14px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 20px ;
+    padding: 20px 20px;
     box-shadow: 2px 2px 2px -2px black;
     gap: 20px;
   }
@@ -595,8 +599,11 @@
     font-size: 20px;
     letter-spacing: 1.4;
   }
+  .card-membro .pfp-card-membro{
+    height: 100px !important;
+  }
   .card-membro img {
-    height: 120px;
+    height: 50px !important;
     align-self: center;
     border-radius: 300px;
   }
@@ -609,13 +616,29 @@
   #p-equipe {
     margin: 20px 50px;
   }
-  .social-medias {
-    img {
-      filter: invert(0.76);
-      height: 50px;
-    }
+  .social-medias img {
+    filter: invert(1);
+    height: 50px;
   }
-  .container{
+  .container {
     gap: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #nossos-clientes {
+    background-color: #4a90e2;
+    padding: 20px 10px;
+  }
+  #nossos-clientes .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  #nossos-clientes .container-red{
+    width: 75%;
+    height: 250px;
   }
 }

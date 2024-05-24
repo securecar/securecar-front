@@ -32,6 +32,12 @@ header .mobile-menu-icon{
 header .mobile-menu{
   display: none;
 }
+
+.open{
+  display:block;
+  width: 100%;
+  z-index: 100;
+}
 #pfp {
   height: 40px;
 }
@@ -859,19 +865,14 @@ footer nav ul {
 
   header .mobile-menu-icon{
     display: block;
-    button{
+  }
+  header .mobile-menu-icon button{
       background-color: transparent;
       border: none;
-      img{
-        height: 50px;
-      }
     }
   }
-
-  header .mobile-menu{
-    display: flex;
-    flex-direction: column;
-
+  header .mobile-menu-icon button img{
+    height: 30px !important;
   }
 
 
@@ -954,7 +955,7 @@ footer nav ul {
     text-decoration: none;
   }
   
-}
+
 
 .chatbot-btn {
   border: 1px solid black;
